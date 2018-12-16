@@ -1,0 +1,19 @@
+server:
+ port: 9092
+spring:
+  application:
+    name: location-service-zuul-service
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka
+zuul:
+  prefix: /api
+  routes:
+    location-service:
+      path: /api/location-service/**
+      url: /api/location-service/**
+
+

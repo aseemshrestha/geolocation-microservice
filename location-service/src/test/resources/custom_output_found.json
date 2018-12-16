@@ -1,0 +1,10 @@
+{
+  "results": [{
+    "location": {
+      "lng": "-122.0755653",
+      "lat": "37.4261056"
+    },
+    "status": "FOUND",
+    "address": "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
+  }]
+}
